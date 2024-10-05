@@ -157,7 +157,7 @@ text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ?
       level, limit, name, weton, week, date, dateIslamic, wib, wit, wita, time, totalreg, rtotalreg, role
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    let media = await prepareWAMessageMedia({ image: { url: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg' } }, { upload: conn.waUploadToServer });
+    let media = await prepareWAMessageMedia({ image: { url: 'https://telegra.ph/file/2968043b974e1eaebca88.jpg' } }, { upload: conn.waUploadToServer });
     let msg = generateWAMessageFromContent(m.chat, {
   viewOnceMessage: {
     message: {
@@ -183,9 +183,9 @@ text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ?
             {
               "name": "cta_url",
               "buttonParamsJson": JSON.stringify({
-                display_text: "Api",
-                url: 'https://api.betabotz.eu.org',
-                merchant_url: 'https://api.betabotz.eu.org'
+                display_text: "Subscribe",
+                url: 'https://youtube.com/@mirai2708?si=Oqldazz5nj9vEk47',
+                merchant_url: 'https://youtube.com/@mirai2708?si=Oqldazz5nj9vEk47'
               })
             },
           ],
