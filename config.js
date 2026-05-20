@@ -1,21 +1,21 @@
 require("dotenv").config();
 
-global.owner = ["6281289694906"]; // wajib di isi tidak boleh kosong
-global.mods = ["6281289694906"]; // wajib di isi tidak boleh kosong
-global.prems = ["6281289694906"]; // wajib di isi tidak boleh kosong
-global.nameowner = "LANN"; // wajib di isi tidak boleh kosong
-global.numberowner = "6281289694906"; // wajib di isi tidak boleh kosong
-global.mail = "danaputra10012@gmail.com"; // wajib di isi tidak boleh kosong
-global.gc = "https://chat.whatsapp.com/I5RpePh2b5u37OyFjzCNTr"; // wajib di isi tidak boleh kosong
-global.instagram = "https://www.instagram.com/dana_putra13/"; // wajib di isi tidak boleh kosong
-global.wm = "© BETABOTZ"; // isi nama bot atau nama kalian
+global.owner = ["6281944303681"]; // wajib di isi tidak boleh kosong
+global.mods = ["6281944303681"]; // wajib di isi tidak boleh kosong
+global.prems = ["6281944303681"]; // wajib di isi tidak boleh kosong
+global.nameowner = "Mirai"; // wajib di isi tidak boleh kosong
+global.numberowner = "6281944303681"; // wajib di isi tidak boleh kosong
+global.mail = "sagirisagiriizumi@gmail.com"; // wajib di isi tidak boleh kosong
+global.gc = "https://chat.whatsapp.com/I5Rsjsr"; // wajib di isi tidak boleh kosong
+global.instagram = "https://www.instagram.com/kuriyamamirai; // wajib di isi tidak boleh kosong
+global.wm = "Mirai BOT"; // isi nama bot atau nama kalian
 global.wait = "_*Tunggu sedang di proses...*_"; // ini pesan simulasi loading
 global.eror = "_*Server Error*_"; // ini pesan saat terjadi kesalahan
 global.stiker_wait = "*⫹⫺ Stiker sedang dibuat...*"; // ini pesan simulasi saat loading pembuatan sticker
-global.qris = "https://cdn.filn.pp.ua/uploads/betabotzapi/41616.jpg";
-global.thumb = "https://telegra.ph/file/3a34bfa58714bdef500d9.jpg";
+global.qris = "https://i.ibb.co/20Xt4vVY/IMG-20250221-WA0000.jpg";
+global.thumb = "https://telegra.ph/file/2968043b974e1eaebca88.jpg";
 global.packname = "Made With"; // watermark stikcker packname
-global.author = "Bot WhatsApp"; // watermark stikcker author
+global.author = "Mirai BOT"; // watermark stikcker author
 global.maxwarn = "3"; // Peringatan maksimum Warn
 global.groupLapor = "120363216901617825@g.us"; // grub dimana bot mengirim laporan error dari user
 
@@ -29,7 +29,7 @@ global.gcspam = false; // Set true/false untuk menutup grup ketika spam (default
 global.prefix = './#'
 
 // APIKEY INI WAJIB DI ISI! //
-global.lann = "";
+global.lann = "Btz-sagiri07";
 // global.lann = process.env.API_KEY_BETABOTZ;
 // aktifkan akses .env di atas jika kamu ingin menaruh key api di .env
 // Daftar terlebih dahulu https://api.betabotz.eu.org
