@@ -835,6 +835,7 @@ module.exports = {
           if (!("antiStickernokick" in chat)) chat.antiStickernokick = false;
           if (!("viewonce" in chat)) chat.viewonce = false;
           if (!("antiporn" in chat)) chat.antiporn = false;
+          if (!("anticall" in chat)) chat.anticall = true;
           if (!("antiToxic" in chat)) chat.antiToxic = false;
           if (!isNumber(chat.expired)) chat.expired = 0;
           if (!("memgc" in chat)) chat.memgc = {};
@@ -899,6 +900,7 @@ module.exports = {
             antiSticker: false,
             antiStickernokick: false,
             viewonce: false,
+            anticall: true,
             antiToxic: false,
             antilinkig: false,
             antilinkignokick: false,
@@ -1259,8 +1261,11 @@ module.exports = {
             console.error(e);
             if (e) {
               let text = util.format(e);
-              for (let key of Object.values(APIKeys))
-                text = text.replace(new RegExp(key, "g"), "#HIDDEN#");
+              for (const key of Object.values(APIKeys)) {
+                if (!key) continue;
+                const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+                text = text.replace(new RegExp(escaped, "g"), "#HIDDEN#");
+              }
               if (e.name)
                 for (let jid of owner
                   .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
